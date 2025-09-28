@@ -1,12 +1,12 @@
 # AAE Decode Utility
 
-This project provides a Python utility to decode Apple's AAE (Adjustment) files, which store photo edit information in XML format. The tool extracts and decodes the `data` block, which is base64-encoded and zlib-compressed, and outputs the decoded data as JSON.
+This project provides a Python utility to decode [Apple's AAE](http://fileformats.archiveteam.org/wiki/AAE_sidecar_format) adjustment files, which store photo edit information in XML format. The tool extracts and decodes the `data` block, which is base64-encoded and zlib-compressed, and outputs the decoded data as JSON.
 
 ## Features
-- Reads AAE XML files
+- Reads AAE XML file
 - Decodes and decompresses the `data` block
 - Prints decoded data as JSON
-- Optionally prints the full XML content with the decoded data
+- Optionally prints the XML content with the decoded data
 
 ## Usage
 
